@@ -1,1 +1,41 @@
- 
+/* мобилки*/
+ @media (min-width:320px) {
+    .wrap_title {
+        font-size: 25px;
+    }
+ }
+
+ /* мобилки (альбомная ориентация)*/
+  @media (min-width:481px) {
+    .wrap_title {
+        font-size: 35px;
+    }
+ }
+
+ /* небольшие планшеты*/
+   @media (min-width:601px) {
+    .wrap_title {
+        font-size: 45px;
+    }
+ }
+
+ /* плншеты (портретная ориентация)*/
+   @media (min-width:768px) {
+    .wrap_title {
+        font-size: 55px;
+    }
+ }
+
+  /* плншеты (альбомная ориентация)*/
+   @media (min-width:1024px) {
+    .wrap_title {
+        font-size: 75px;
+    }
+ }
+
+  /* ПК */
+   @media (min-width:1280px) {
+    .wrap_title {
+        font-size: 105px;
+    }
+ }
