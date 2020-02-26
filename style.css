@@ -35,19 +35,19 @@
     left: 0;
     transform: rotate(0deg);
     transition: .25s ease-in-out;
-}
+} 
 
 .menu__icon span:nth-child(1) {
     top: 0px;
-}
+} 
 
 .menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
     top: 13px;
-}
+} 
 
 .menu__icon span:nth-child(4) {
     top: 26px;
-}
+} 
 
 @media screen and (max-width: 999px) {
     .menu__icon {
@@ -75,49 +75,55 @@
 }
 
 
-.wrap {
+.wrap__title {
     text-align: center;
     padding: 150px 0;
 }
 
 /* мобилки*/
  @media (min-width:320px) {
-    .wrap_title {
+    .wrap__title {
+        color: blue;
         font-size: 25px;
     }
  }
 
  /* мобилки (альбомная ориентация)*/
   @media (min-width:481px) {
-    .wrap_title {
+    .wrap__title {
+        color: brown;
         font-size: 35px;
     }
  }
 
  /* небольшие планшеты*/
    @media (min-width:601px) {
-    .wrap_title {
+    .wrap__title {
+        color: cornflowerblue;
         font-size: 45px;
     }
  }
 
  /* плншеты (портретная ориентация)*/
    @media (min-width:768px) {
-    .wrap_title {
+    .wrap__title {
+        color: darkgoldenrod;
         font-size: 55px;
     }
  }
 
   /* плншеты (альбомная ориентация)*/
    @media (min-width:1024px) {
-    .wrap_title {
+    .wrap__title {
+        color: darkgreen;
         font-size: 75px;
     }
  }
 
   /* ПК */
    @media (min-width:1280px) {
-    .wrap_title {
+    .wrap__title {
+        color: grey;
         font-size: 105px;
     }
  }
